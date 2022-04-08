@@ -1,0 +1,18 @@
+
+
+# Install Poetry CLI
+```bash
+# Activate poetry environment.
+cd pypg
+poetry install
+poetry shell
+```
+
+```bash
+pypg Sam
+```
+
+
+# References: 
+
+- https://dev.to/bowmanjd/build-command-line-tools-with-python-poetry-4mnc 
