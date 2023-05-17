@@ -1,4 +1,4 @@
-from pypg import __version__
+from scrapper import __version__
 
 
 def test_version():
