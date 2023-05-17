@@ -9,7 +9,7 @@ setup:
 	poetry shell
 
 build: setup uninstall
-	cd scrapper
+	cd scraper
 
 	# install python build package to environment.
 	pip install build
@@ -18,8 +18,8 @@ build: setup uninstall
 	python -m build
 
 	# Install CLI
-	pip install dist/scrapper-0.1.0-py3-none-any.whl
+	pip install dist/scraper-0.1.0-py3-none-any.whl
 
 
 uninstall:
-	pip uninstall scrapper -y
+	pip uninstall scraper -y
